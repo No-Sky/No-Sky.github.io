@@ -1,0 +1,64 @@
+baseURL = "https://no-sky.github.io"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "学习笔记"              # 网站标题
+theme = "zozo"
+hasCJKLanguage = true          # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
+summaryLength = 100
+paginate = 5                   # 首页显示文章数量
+enableEmoji = true
+
+[author]                       # essential                     # 必需
+  name = "nosky"
+
+[blackfriday]
+  smartypants = false
+
+[[menu.main]]                  # config your menu 配置菜单
+  name = "首页"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "归档"
+  weight = 20
+  identifier = "archive"
+  url = "/posts/"
+[[menu.main]]
+  name = "标签"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "关于"
+  weight = 40
+  identifier = "about"
+  url = "/about/"
+
+[params]
+  subTitle = "温故而知新"                                       # 网站二级标题
+  footerSlogan = "路漫漫其修远兮，吾将上下而求索"                                          # 网站页脚标语
+  keywords = ["note", "笔记","nosky"]                                  # 网站关键字
+  description = "nosky 的个人学习笔记"                        # 网站描述
+
+  # mathjax
+  mathjax = true                                                       # 是否使用mathjax（数学公式）
+
+  summaryDisplay = false                                          # 是否显示文章摘要
+
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[params.valine]
+  enable = false
+  appId = ""
+  appKey = ""
+  placeholder = " "
+  visitor = true
+
+[social]
+  github = "nosky"
+  # twitter = " "
+  # facebook = " "
+  # weibo = " "
+  # instagram = " "
