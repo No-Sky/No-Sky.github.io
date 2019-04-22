@@ -33,9 +33,8 @@ draft: false
 
   坐标轴：
 
-  x轴 $\leftrightarrow $  $\begin{cases} y= 0 \\ z= 0 \end{cases}$                                y轴 $\leftrightarrow $  $\begin{cases} z= 0 \\ x= 0 \end{cases}$                                       z轴 $\leftrightarrow $  $\begin{cases} x= 0 \\ y= 0 \end{cases}$
+x轴 $\leftrightarrow   \begin{cases} y= 0 \\ z= 0 \end{cases}$     y轴 $\leftrightarrow  \begin{cases} z= 0 \\ x= 0 \end{cases}$      z轴 $\leftrightarrow  \begin{cases} x= 0 \\ y= 0 \end{cases}$
 
-  做坐标面：
+  坐标面：
 
   xOy面：$\leftrightarrow$  z = 0                              yOz面：$\leftrightarrow$  x = 0           zOx面：$\leftrightarrow$  y = 0
-
