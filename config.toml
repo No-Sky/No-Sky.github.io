@@ -57,7 +57,7 @@ enableEmoji = true
   visitor = true
 
 [social]
-  github = "nosky"
+  github = "https://github.com/no-sky"
   # twitter = " "
   # facebook = " "
   # weibo = " "

@@ -1,7 +1,6 @@
 ---
 title: "空间中两点的距离"
 date: 2019-04-22T16:26:42+08:00
-hidden: false
 draft: false
 tags: ["Math", "Vector Algebra and Analytic Geometry"]
 ---
