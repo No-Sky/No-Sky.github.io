@@ -1,5 +1,6 @@
 ---
 title: "空间直角坐标系"
+author: "nosky"
 date: 2019-04-22T15:30:00+08:00
 tags: ["Math", "Vector Algebra and Analytic Geometry"]
 draft: false
@@ -29,12 +30,12 @@ draft: false
 
   所有的有序三元数组的集合记作：
 
-  $R^3 = \{(x,y,z)|x\epsilon R,y\epsilon R,z\epsilon R\}$
+  `$R^3 = \{(x,y,z)|x\epsilon R,y\epsilon R,z\epsilon R\}$`
 
   坐标轴：
 
-x轴 $\leftrightarrow   \begin{cases} y= 0 \\ z= 0 \end{cases}$     y轴 $\leftrightarrow  \begin{cases} z= 0 \\ x= 0 \end{cases}$      z轴 $\leftrightarrow  \begin{cases} x= 0 \\ y= 0 \end{cases}$
+x轴 `$\leftrightarrow   \begin{cases} y= 0 \\\\  z= 0 \end{cases}$`     y轴 `$\leftrightarrow  \begin{cases} z= 0 \\\\ x= 0 \end{cases}$`      z轴 `$\leftrightarrow  \begin{cases} x= 0 \\\\ y= 0 \end{cases}$`
 
   坐标面：
 
-  xOy面：$\leftrightarrow$  z = 0                              yOz面：$\leftrightarrow$  x = 0           zOx面：$\leftrightarrow$  y = 0
+  xOy面：`$\leftrightarrow$`  z = 0                              yOz面：`$\leftrightarrow$`  x = 0           zOx面：`$\leftrightarrow$`  y = 0
