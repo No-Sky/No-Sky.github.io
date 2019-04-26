@@ -78,13 +78,11 @@ tags: ["Math", "Vector Algebra and Analytic Geometry"]
 
 例：设`$\vec{a} = (2,1),\vec{b} = (-3,1)$`，求`$\vec{c} = \vec{a}+2\vec{b}$`的单位向量
 
-解：<div>$$ \vec{c} = \vec{a} + 2\vec{b} \\
-           = (2, 1) + 2 (-3, 1) \\
-           =(-4, 3) \\
-      |\vec{c}| = \sqrt{(-4)^2 + 3^2} = 5 \\ 
-      e_\vec{c} = \frac{1}{5}(-4,3) = (-\frac{4}{5},\frac{3}{5})
-    $$</div>
-![eg2.png](https://i.loli.net/2019/04/23/5cbedd944c04a.png)
+解：`$ \vec{c} = \vec{a} + 2\vec{b} \\\\
+           = (2, 1) + 2 (-3, 1) \\\\
+           =(-4, 3) \\\\
+      |\vec{c}| = \sqrt{(-4)^2 + 3^2} = 5 \\\\
+      e_\vec{c} = \frac{1}{5}(-4,3) = (-\frac{4}{5},\frac{3}{5})$`
 
 # 向量的基表示
 
@@ -102,17 +100,14 @@ tags: ["Math", "Vector Algebra and Analytic Geometry"]
 
 例：设`$A(x_1, y_1，z_1 )和B(x_2,y_2,z_2)$`为已知两点，而在AB直线上的点M分为有向线段`$\overrightarrow{AB}$`为两个有向线段`$\overrightarrow{AM}和\overrightarrow{MB}$`，并使`$\overrightarrow{AM} = \lambda \overrightarrow{MB} (\lambda \neq -1 为常数)$`，求分点M的坐标。
 
-解：<div>$$ 
-设M(x, y, z)，由于\\\\
+解： `$设M(x, y, z)，由于\\\\
 \overrightarrow{AM} = (x-x_1,y-y_1,z-z_1) \\\\ 
 \overrightarrow{MB} = (x_2- x, y_2-x, z_2-z) \\\\
 由\overrightarrow{AM} = \lambda \overrightarrow{MB}得 \\\\
 (x-x_1,y-y_1,z-z_1) = \lambda (x_2- x, y_2-x, z_2-z) \\\\
 \Rightarrow x-x_1 = \lambda (x_2-x),y-y_1 = \lambda (y_2-y),z-z_1 = \lambda (z_2-z) \\\\
 \Rightarrow x = \frac{x_1+\lambda x_2}{1+\lambda},y = \frac{y_1+\lambda y_2}{1+\lambda},z = \frac{z_1+\lambda z_2}{1+\lambda} \\\\
-则得点M的坐标为（\frac{x_1+\lambda x_2}{1+\lambda}，\frac{y_1+\lambda y_2}{1+\lambda},\frac{z_1+\lambda z_2}{1+\lambda}）
-$$</div>
-![eg1.png](https://i.loli.net/2019/04/23/5cbedd8df30b5.png)
+则得点M的坐标为（\frac{x_1+\lambda x_2}{1+\lambda}，\frac{y_1+\lambda y_2} ,{1+\lambda},\frac{z_1+\lambda z_2}{1+\lambda}）$`
 
 `$A(x_1, y_1，z_1 )和B(x_2,y_2,z_2)$`的**中点坐标**为`$(\frac{x_1+x_2+x_3}{2},\frac{y_1+y_2+y_3}{2},\frac{z_1+z_2+z_3}{2})$`
 
