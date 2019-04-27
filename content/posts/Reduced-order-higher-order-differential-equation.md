@@ -5,6 +5,7 @@ date: 2019-04-26T16:33:33+08:00
 draft: false
 tags: ["Math", "Differential Equation"]
 ---
+> 因为文章中包含大量数学公式，推荐使用电脑阅读本文章
 
 # `$y^{(n)}=f(x)$`型
 
@@ -12,13 +13,9 @@ tags: ["Math", "Differential Equation"]
 
 例：**求微分方程`${y}'''=24x$`通解**
 
-解：对原方程连续积分可得：
-
-`${y}''=\int 24x\mathrm{d}x=12x^2+C_1 \\\\
-{y}'=\int (12x^2+C_1)\mathrm{d}x \\\\
-=4x^3+C_1x+C_2 \\\\
-y=\int (4x^3+C_1x+C_2)\mathrm{d}x \\\\
-=x^4+C_1\frac{x^2}{2}+C_2x+C3$`
+解：对原方程连续积分可得：`${y}''=\int 24x\mathrm{d}x=12x^2+C_1 \\\\
+{y}'=\int (12x^2+C_1)\mathrm{d}x=4x^3+C_1x+C_2 \\\\
+y=\int (4x^3+C_1x+C_2)\mathrm{d}x=x^4+C_1\frac{x^2}{2}+C_2x+C3$`
 
 # `${y}''=f(x,{y}')$`型
 
@@ -26,8 +23,7 @@ y=\int (4x^3+C_1x+C_2)\mathrm{d}x \\\\
 
 例：**求微分方程`$x{y}''+{y}'=4x$`的通解**
 
-解：
-`$令{y}'=P,{y}''={P}' \\\\
+解：`$令{y}'=P,{y}''={P}' \\\\
      代入原方程得：x{P}'+P=4x \\\\ 
      \Rightarrow {P}'+\frac{1}{x}P=4 \\\\
      可得：P=e^{-\int \frac{1}{x}\mathrm{d}x}(\int 4e^{\int \frac{1}{x}}\mathrm{d}x+C-1) \\\\

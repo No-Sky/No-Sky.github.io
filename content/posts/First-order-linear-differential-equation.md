@@ -5,6 +5,7 @@ date: 2019-04-26T16:17:39+08:00
 draft: false
 tags: ["Math", "Differential Equation"]
 ---
+> 因为文章中包含大量数学公式，推荐使用电脑阅读本文章
 
 # 标准形式
 
@@ -22,9 +23,7 @@ tags: ["Math", "Differential Equation"]
 
 例：解方程`$x{y}'-y=x^3$`
 
-解：原方程可化为：
-
-`${y}'-\frac{1}{x}y=x^2 \\\\
+解：原方程可化为：`${y}'-\frac{1}{x}y=x^2 \\\\
                 由公式得：y=e^{-\int \frac{1}{x}\mathrm{d}x}(\int x^2e^{-\int \frac{1}{x}\mathrm{d}x}\mathrm{d}x+C) \\\\
                 =e^{lnx}(\int x^2e^{-lnx}\mathrm{d}x+C) \\\\
                 =x(\int x^2·\frac{1}{x}\mathrm{d}x+C) \\\\

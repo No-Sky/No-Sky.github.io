@@ -5,6 +5,7 @@ date: 2019-04-26T15:10:23+08:00
 draft: false
 tags: ["Math", "Differential Equation"]
 ---
+> 因为文章中包含大量数学公式，推荐使用电脑阅读本文章
 
 # 常微分方程的解
 
@@ -20,9 +21,7 @@ tags: ["Math", "Differential Equation"]
 
 例：已知微分方程`${y}'+ay=e^x$`的一个特解为`$y=xe^x$`,则a=__.
 
-解：
-
-`${y}'=e^x+x·e^x=(1+x)e^x \\\\
+解：`${y}'=e^x+x·e^x=(1+x)e^x \\\\
 代入微分方程得: (1+x)e^x+a·xe^x=e^x \\\\
 \Rightarrow (1+x+ax)e^x=e^x \\\\ 
 \Rightarrow a=-1$`
@@ -41,9 +40,7 @@ tags: ["Math", "Differential Equation"]
 
 例1：**求方程**`$\sec^2x+\tan y \mathrm{d} x + \sec^2 y \tan x \mathrm{d} y = 0$的`**通解**
 
-解：原方程可化为：
-
-`$\sec^2x+\tan y \mathrm{d} x = - \sec^2 y \tan x \mathrm{d} y  \\\\
+解：原方程可化为：`$\sec^2x+\tan y \mathrm{d} x = - \sec^2 y \tan x \mathrm{d} y  \\\\
 \Rightarrow \frac{\sec^2 x}{\tan x} \mathrm{d} x = - \frac{\sec^2 y}{\tan y} \mathrm{d} x \\\\
 \Rightarrow \int \frac{\sec^2 x}{\tan x} \mathrm{d} x = - \int \frac{\sec^2 y}{\tan y} \mathrm{d} x \\\\
 \Rightarrow \int \frac{1}{\tan x} \mathrm{d} (\tan x) = - \int \frac{1}{\tan y} \mathrm{d} (\tan y) \\\\
@@ -51,19 +48,16 @@ tags: ["Math", "Differential Equation"]
 \Rightarrow ln|\tan x| + ln|(\tan y)|= ln|C| \\\\
 \Rightarrow ln|\tan x \tan y= ln|C|  \\\\
 \Rightarrow \tan x \tan y= C \\\\
-即原微分方程的通解是:\\\\
+即原微分方程的通解是:
 \tan x \tan y= C$`
 
 例2：求微分方程`$\mathrm{d} y - 2xy^2 \mathrm{d} x = 0$`满足条件`$y(1)=-1$`的特解
 
-解：原方程可化为：
-
-`$\mathrm{d} y = 2xy^2 \\\\
+解：原方程可化为：`$\mathrm{d} y = 2xy^2 \\\\
                  \Rightarrow \frac{1}{y^2} \mathrm{d} y = 2x \mathrm{d} x \\\\
                  \Rightarrow \int \frac{1}{y^2} \mathrm{d} y = \int 2x \mathrm{d} x \\\\
                  \Rightarrow -\frac{1}{y} = x^2+C \\\\
                  \Rightarrow y = - \frac{1}{x^2+C} \\\\
                  y(1)=-\frac{1}{1+C}=-1 \\\\
                  \Rightarrow C=0 \\\\
-                 即原方程满足y(1)=-1的特解是: \\\\
-                 y=-\frac{1}{x^2}$`
+                 即原方程满足y(1)=-1的特解是: y=-\frac{1}{x^2}$`
