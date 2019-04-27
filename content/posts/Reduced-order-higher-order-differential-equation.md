@@ -12,9 +12,13 @@ tags: ["Math", "Differential Equation"]
 
 例：**求微分方程`${y}'''=24x$`通解**
 
-解：对原方程连续积分可得：`${y}''=\int 24x\mathrm{d}x=12x^2+C_1 \\\\
-                    {y}'=\int (12x^2+C_1)\mathrm{d}x=4x^3+C_1x+C_2 \\\\
-                    y=\int (4x^3+C_1x+C_2)\mathrm{d}x=x^4+C_1\frac{x^2}{2}+C_2x+C3$`
+解：对原方程连续积分可得：
+
+`${y}''=\int 24x\mathrm{d}x=12x^2+C_1 \\\\
+{y}'=\int (12x^2+C_1)\mathrm{d}x \\\\
+=4x^3+C_1x+C_2 \\\\
+y=\int (4x^3+C_1x+C_2)\mathrm{d}x \\\\
+=x^4+C_1\frac{x^2}{2}+C_2x+C3$`
 
 # `${y}''=f(x,{y}')$`型
 
@@ -22,15 +26,18 @@ tags: ["Math", "Differential Equation"]
 
 例：**求微分方程`$x{y}''+{y}'=4x$`的通解**
 
-解：`$令{y}'=P,{y}''={P}' \\\\
-     代入原方程得：x{P}'+P=4x \Rightarrow {P}'+\frac{1}{x}P=4 \\\\
+解：
+`$令{y}'=P,{y}''={P}' \\\\
+     代入原方程得：x{P}'+P=4x \\\\ 
+     \Rightarrow {P}'+\frac{1}{x}P=4 \\\\
      可得：P=e^{-\int \frac{1}{x}\mathrm{d}x}(\int 4e^{\int \frac{1}{x}}\mathrm{d}x+C-1) \\\\
      =e^{-lnx}(\int 4e^{lnx}\mathrm{d}x+C_1) \\\\
      =\frac{1}{x}(\int 4x\mathrm{d}x+C_1) \\\\
      =\frac{1}{x}(2x^2+C_1) \\\\
      =2x+C_1\frac{1}{x} \\\\
      \Rightarrow {y}'=2x+\frac{C_1}{x} \\\\
-     \Rightarrow y = \int (2x+\frac{C_1}{x})\mathrm{d}x=x^2+C_1ln|x|+C-2$`
+     \Rightarrow y = \int (2x+\frac{C_1}{x})\mathrm{d}x \\\\
+     \Rightarrow y=x^2+C_1ln|x|+C-2$`
      
 # `${y}''=f(y,{y}')$`型
 
@@ -48,5 +55,5 @@ tags: ["Math", "Differential Equation"]
      \Rightarrow \frac{\mathrm{d}y}{\mathrm{d}x}=C_1y \\\\
      \Rightarrow \frac{\mathrm{d}y}{y}=C_1\mathrm{d}x \\\\
      \Rightarrow \int \frac{\mathrm{d}y}{y}=\int C_1\mathrm{d}x \\\\
-     \Rightarrow ln|y|=C_1x+ln|C_2|$ \\\\
-     \Rightarrow y=C_2e^{C_1x}`
+     \Rightarrow ln|y|=C_1x+ln|C_2| \\\\
+     \Rightarrow y=C_2e^{C_1x}$`

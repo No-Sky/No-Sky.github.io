@@ -16,7 +16,9 @@ tags: ["Math", "Differential Equation"]
 
 例1：**求`$x{y}'-x\sin\frac{y}{x}-y=0$`的通解。**
 
-解：原方程可化为：`${y}'-\sin\frac{y}{x}=0 \Rightarrow {y}'=\sin\frac{y}{x}+\frac{y}{x} \\\\
+解：原方程可化为：
+
+`${y}'-\sin\frac{y}{x}=0 \Rightarrow {y}'=\sin\frac{y}{x}+\frac{y}{x} \\\\
                  令\frac{y}{x}=u, y=xu, {y}'=u+xu \\\\
                  代入原方程得：u+x{u}'=\sin u+u \\\\
                  \Rightarrow x\frac{\mathrm{d} u}{\mathrm{d} x} = \sin u \\\\

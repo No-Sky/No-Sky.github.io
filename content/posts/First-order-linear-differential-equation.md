@@ -22,7 +22,9 @@ tags: ["Math", "Differential Equation"]
 
 例：解方程`$x{y}'-y=x^3$`
 
-解：原方程可化为：`${y}'-\frac{1}{x}y=x^2 \\\\
+解：原方程可化为：
+
+`${y}'-\frac{1}{x}y=x^2 \\\\
                 由公式得：y=e^{-\int \frac{1}{x}\mathrm{d}x}(\int x^2e^{-\int \frac{1}{x}\mathrm{d}x}\mathrm{d}x+C) \\\\
                 =e^{lnx}(\int x^2e^{-lnx}\mathrm{d}x+C) \\\\
                 =x(\int x^2·\frac{1}{x}\mathrm{d}x+C) \\\\
