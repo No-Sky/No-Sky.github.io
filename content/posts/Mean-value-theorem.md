@@ -12,7 +12,7 @@ tags: ["Math", "Differential mean value theorem"]
 
 如果函数`$f(x)$`满足
 
-①在闭区间`$[a,b]$`上连
+①在闭区间`$[a,b]$`上连续
 
 ②在开区间`$(a,b)$`内可导
 
@@ -22,7 +22,7 @@ tags: ["Math", "Differential mean value theorem"]
 
 如果函数`$f(x)$`满足
 
-①在闭区间`$[a,b]$`上连
+①在闭区间`$[a,b]$`上连续
 
 ②在开区间`$(a,b)$`内可导
 
@@ -32,7 +32,7 @@ tags: ["Math", "Differential mean value theorem"]
 
 如果函数`$f(x)及F(x)$`满足
 
-①在闭区间`$[a,b]$`上连
+①在闭区间`$[a,b]$`上连续
 
 ②在开区间`$(a,b)$`内可导
 
@@ -48,6 +48,6 @@ tags: ["Math", "Differential mean value theorem"]
 
 <div>$$\lim_{x \to a} \frac{f(x)}{F(x)}=\lim_{x \to a} \frac{{f}'(x)}{{F}'(x)}$$</div>
 
-其中`$\frac{f(x)}{F(x)}$`也可以是`$\frac{\infty}{\infty}$`型未定式，`${f}'(x),{F}'(x)$`要存在且`${F}'(x)\neq 0$`；相同的极限过程可以是`$x\Rightarrow a,x \Rightarrow a^{\pm },x \Rightarrow \infty,x\Rightarrow \pm \infty $`的任何一种，对于`$n \Rightarrow \infty$`，可用于子列极限定理，先化为`$x \Rightarrow +\infty$`的极限
+其中`$\frac{f(x)}{F(x)}$`也可以是`$\frac{\infty}{\infty}$`型未定式，`${f}'(x),{F}'(x)$`要存在且`${F}'(x)\neq 0$`；相同的极限过程可以是`$x\rightarrow a,x \rightarrow a^{\pm },x \rightarrow \infty,x\rightarrow \pm \infty $`的任何一种，对于`$n \rightarrow \infty$`，可用于子列极限定理，先化为`$x \Rightarrow +\infty$`的极限
 
 对于其余五种非基本型未定式，应先变形或者取对数化为基本型，再用洛必达法则。
