@@ -44,6 +44,8 @@ enableEmoji = true
   # mathjax
   mathjax = true                                                       # 是否使用mathjax（数学公式）
 
+  google_analytics_id = "UA-135962328-2"
+
   summaryDisplay = false                                          # 是否显示文章摘要
 
 # Valine.
