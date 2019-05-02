@@ -57,7 +57,8 @@ enableEmoji = true
   visitor = true
 
 [social]
-  github = "" #https://github.com/no-sky
+  mail = "mailto:nosky@xiaofangwei.cn"
+  # github = "" #https://github.com/no-sky
   # twitter = " "
   # facebook = " "
   # weibo = " "
