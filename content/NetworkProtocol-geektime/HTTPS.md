@@ -32,4 +32,4 @@ HTTPS 的工作模式
 用于传输对称加密的秘钥，而真正的双方大数据量的通信都是通过对称加密进行的。
 当然是可以的。这就是 HTTPS 协议的总体思路。
 
-![image-20191126111738300](E:\Hugo\Sites\no-sky.github.io\content\NetworkProtocol-geektime\HTTPS.assets\image-20191126111738300.png)
+![image-20191126111738300](.\HTTPS.assets\image-20191130231300064.png)

@@ -25,7 +25,9 @@ TCP 连接，就可以在多次请求中复用。
 建立了连接以后，浏览器就要发送 HTTP 的请求。
 请求的格式就像这样。
 
-![image-20191126110906034](E:\Hugo\Sites\no-sky.github.io\content\NetworkProtocol-geektime\HTTP.assets\image-20191126110906034.png)HTTP 的报文大概分为三大部分。第一部分是请求行，第二部分是请求的首部，第三部分才是请求的正
+![image-20191126110906034](.\HTTP.assets\image-20191130231130789.png)
+
+HTTP 的报文大概分为三大部分。第一部分是请求行，第二部分是请求的首部，第三部分才是请求的正
 文实体。
 第一部分：请求行
 在请求行中，URL 就是 http://www.163.com ，版本为 HTTP 1.1。这里要说一下的，就是方法。方法

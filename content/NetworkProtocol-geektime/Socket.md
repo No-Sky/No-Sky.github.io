@@ -25,7 +25,7 @@ syn_rcvd 的状态。
 监听的 Socket 和真正用来传数据的 Socket 是两个，一个叫作监听
 Socket，一个叫作已连接 Socket。连接建立成功之后，双方开始通过 read 和 write 函数来读写数据，就像往一个文件流里面写东西一样。
 
-![image-20191126110222353](E:\Hugo\Sites\no-sky.github.io\content\NetworkProtocol-geektime\Socket.assets\image-20191126110222353.png)
+![image-20191126110222353](.\Socket.assets\image-20191130231428780.png)
 
 ## 基于 UDP 协议的 Socket 程序函数调用过程
 
@@ -35,4 +35,4 @@ UDP 是没有连接的，所以不需要三次握手，也就不需要调用 lis
 正是因为没有连接状态，每次通信的时候，都调用 sendto 和 recvfrom，都可以传入 IP 地址和端口。
 这个图的内容就是基于 UDP 协议的 Socket 程序函数调用过程。
 
-![image-20191126110329270](E:\Hugo\Sites\no-sky.github.io\content\NetworkProtocol-geektime\Socket.assets\image-20191126110329270.png)
+![image-20191126110329270](.\Socket.assets\image-20191130231454586.png)
