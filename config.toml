@@ -7,6 +7,7 @@ hasCJKLanguage = true          # has chinese/japanese/korean ? # 自动检测是
 summaryLength = 100
 paginate = 10                   # 首页显示文章数量
 enableEmoji = true
+post_asset_folder = true
 
 [author]                       # essential                     # 必需
   name = "nosky"

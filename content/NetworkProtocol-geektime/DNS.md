@@ -17,7 +17,7 @@ tags: ["Network Protocol"]
 分布式的。
 于是，就有了这样树状的层次结构。
 
-![image-20191126112817430](.\DNS.assets\image-20191130231041568.png)
+![image-20191126112817430](../DNS.assets/image-20191130231041568.png)
 
 * 根 DNS 服务器 ：返回顶级域 DNS 服务器的 IP 地址
 * 顶级域 DNS 服务器：返回权威 DNS 服务器的 IP 地址
@@ -47,4 +47,4 @@ tags: ["Network Protocol"]
 8. 本地 DNS 再将 IP 地址返回客户端，客户端和目标建立连接。
     至此，我们完成了 DNS 的解析过程。现在总结一下，整个过程我画成了一个图。
 
-  ![image-20191126112950149](.\DNS.assets\image-20191130231002617.png)
+  ![image-20191126112950149](../DNS.assets/image-20191130231002617.png)
