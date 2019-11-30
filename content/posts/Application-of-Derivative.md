@@ -12,7 +12,7 @@ tags: ["Math", "single variable differential calculus"]
 
 切线方程：`$y-y_0={f}'(x_0)(x-X_0)$`
 
-法线方程：`$y-y_0=\frac{1}{{f}'(x_0)}(x-x_0)$`
+法线方程：`$y-y_0=-\frac{1}{{f}'(x_0)}(x-x_0)$`
 
 # 求隐函数的导数
 
