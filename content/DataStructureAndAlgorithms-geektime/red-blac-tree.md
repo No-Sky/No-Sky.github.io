@@ -3,7 +3,7 @@ title: "红黑树：为什么工程中都用红黑树这种二叉树"
 author: "nosky"
 date: 2019-11-21T10:47:52+08:00
 draft: false
-tags: ["DataStructure", "Algorithms"]
+tags: ["DataStructure&Algorithms"]
 ---
 
 ## 什么是“平衡二叉查找树”？

@@ -3,7 +3,7 @@ title: "二叉树基础：什么样的二叉树适合用数组来存储"
 author: "nosky"
 date: 2019-11-21T10:47:52+08:00
 draft: false
-tags: ["DataStructure", "Algorithms"]
+tags: ["DataStructure&Algorithms"]
 ---
 
 ## 树（Tree）

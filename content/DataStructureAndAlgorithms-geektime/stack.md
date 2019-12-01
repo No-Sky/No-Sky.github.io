@@ -3,7 +3,7 @@ title: "栈：如何实现浏览器的前进和后退功能"
 author: "nosky"
 date: 2019-11-18T22:16:52+08:00
 draft: false
-tags: ["DataStructure", "Algorithms"]
+tags: ["DataStructure&Algorithms"]
 ---
 
 # 栈：如何实现浏览器的前进和后退功能

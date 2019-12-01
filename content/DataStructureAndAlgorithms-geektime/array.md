@@ -3,7 +3,7 @@ title: "数组：为什么很多编程语言中数组都从0开始编号"
 author: "nosky"
 date: 2019-11-14T17:16:42+08:00
 draft: true
-tags: ["DataStructure", "Algorithms"]
+tags: ["DataStructure&Algorithms"]
 ---
 
 # 数组：为什么很多编程语言中数组都从0开始编号

@@ -3,7 +3,7 @@ title: "散列表：Word文档中的单词拼写检查功能是如何实现的"
 author: "nosky"
 date: 2019-11-20T9:00:52+08:00
 draft: false
-tags: ["DataStructure", "Algorithms"]
+tags: ["DataStructure&Algorithms"]
 ---
 
 # 散列表：Word文档中的单词拼写检查功能是如何实现的

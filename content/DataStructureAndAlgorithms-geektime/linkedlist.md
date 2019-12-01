@@ -3,7 +3,7 @@ title: "链表"
 author: "nosky"
 date: 2019-11-18T22:35:42+08:00
 draft: false
-tags: ["DataStructure", "Algorithms"]
+tags: ["DataStructure&Algorithms"]
 ---
 
 # 链表

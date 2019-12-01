@@ -3,7 +3,7 @@ title: "排序优化：如何实现一个通用的、高性能的排序函数"
 author: "nosky"
 date: 2019-11-20T9:00:52+08:00
 draft: false
-tags: ["DataStructure", "Algorithms"]
+tags: ["DataStructure&Algorithms"]
 ---
 
 # 排序优化：如何实现一个通用的、高性能的排序函数

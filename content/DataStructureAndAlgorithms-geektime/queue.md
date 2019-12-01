@@ -3,7 +3,7 @@ title: "队列：队列在线程池等有限资源池中的应用"
 author: "nosky"
 date: 2019-11-19T22:44:52+08:00
 draft: false
-tags: ["DataStructure", "Algorithms"]
+tags: ["DataStructure&Algorithms"]
 ---
 
 # 队列：队列在线程池等有限资源池中的应用

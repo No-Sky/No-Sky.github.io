@@ -3,7 +3,7 @@ title: "二分查找（上）：如何用最省内存的方式实现快速查找
 author: "nosky"
 date: 2019-11-20T9:00:52+08:00
 draft: false
-tags: ["DataStructure", "Algorithms"]
+tags: ["DataStructure&Algorithms"]
 ---
 
 # 二分查找（上）：如何用最省内存的方式实现快速查找功能
