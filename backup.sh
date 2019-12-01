@@ -2,7 +2,7 @@ git add .
 git commit -m 'backup'
 git push origin notebackup
 
-hugo
+hugo --theme=zozo
 cd public
 git add .
 git commit -m 'auto-update'
