@@ -14,14 +14,39 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.2.2
         with:
-          hugo-version: '0.59.1'
+          hugo-version: '0.60.1'
           extended: true
       - name: Build
-        run: hugo --gc
+        run: hugo --gc --minify
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2.5.1
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACCESS_TOKEN }}
-          EXTERNAL_REPOSITORY: no-sky/no-sky.github.io
-          PUBLISH_BRANCH: master
-          PUBLISH_DIR: ./
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./public
+          SCRIPT_MODE: true
+        run: |
+          cd /public
+
+          mkdir -p ~/.ssh/
+
+          echo "$ACCESS_TOKEN" | tr -d '\r' > ~/.ssh/id_rsa
+
+          chmod 600 ~/.ssh/id_rsa
+
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+          # set git infomation
+
+          git config --global user.name 'xiaofangwei'
+
+          git config --global user.email 'nosky.xfw@outlook.com'
+
+          git remote add origin git@github.com:no-sky/no-sky.github.io.git
+
+          git add .
+
+          git commit -m "CI"
+
+          git push origin master -f
+
