@@ -21,7 +21,7 @@ jobs:
       - name: Deploy
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACCESS_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
+          PUBLISH_BRANCH: master
           PUBLISH_DIR: ./public
           SCRIPT_MODE: true
         run: |
