@@ -24,7 +24,7 @@ post_asset_folder = true
   name = "归档"
   weight = 20
   identifier = "archive"
-  url = "/"
+  url = "/posts/*"
 [[menu.main]]
   name = "标签"
   weight = 30
