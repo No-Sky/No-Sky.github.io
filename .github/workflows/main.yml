@@ -1,35 +1,26 @@
-name: Build and Update Github Pages
-
-on: 
-  push:
-    branches:    
+name: CI #自动化的名称
+on:
+  push: # push的时候触发
+    branches: # 那些分支需要触发
       - notebackup
-
 jobs:
-
   build:
-
-    runs-on: ubuntu-latest
-
+    runs-on: ubuntu-latest # 镜像市场
     steps:
-
-      - uses: actions/checkout@v1
-
-   
+      - name: checkout # 步骤的名称
+        uses: actions/checkout@master #软件市场的名称
+        with: # 参数
+          submodules: true
       - name: Setup Hugo
-
-        uses: peaceiris/actions-hugo@v2
-
+        uses: peaceiris/actions-hugo@v2.2.2
         with:
           hugo-version: '0.59.1'
-          # extended: true
-
+          extended: true
       - name: Build
         run: hugo --minify
-
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v2.5.0
+        uses: peaceiris/actions-gh-pages@v2.5.1
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.HUGO_TOKE }}
           PUBLISH_BRANCH: master
-          PUBLISH_DIR: /
+          PUBLISH_DIR: ./
