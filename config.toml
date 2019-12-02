@@ -1,69 +1,69 @@
 baseURL = "https://no-sky.github.io"
-languageCode = "zh-cn"
-defaultContentLanguage = "zh-cn"
+languageCode = "en-us"
+defaultContentLanguage = "en-us"
 title = "Note"              # 网站标题
-theme = "zozo"
-hasCJKLanguage = true          # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-summaryLength = 100
-paginate = 10                   # 首页显示文章数量
-enableEmoji = true
+theme = "leavelt"
 
-[author]                       # essential                     # 必需
-  name = "nosky"
+paginate = 10
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = "UA-135962328-2"
+
+preserveTaxonomyNames = true
 
 [blackfriday]
-  smartypants = false
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
 
-[[menu.main]]                  # config your menu 配置菜单
-  name = "首页"
-  weight = 10
-  identifier = "home"
-  url = "/posts/"
-# [[menu.main]]
-#  name = "归档"
-#  weight = 20
-#  identifier = "archive"
-#  url = "/posts/"
-[[menu.main]]
-  name = "标签"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "关于"
-  weight = 40
-  identifier = "about"
-  url = "/about/"
+[Permalinks]
+ posts = "/:year/:filename/"
+
+
+ [menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
 
 [params]
-  subTitle = "温故而知新"                                       # 网站二级标题
-  footerSlogan = "路漫漫其修远兮，吾将上下而求索"                                          # 网站页脚标语
-  keywords = ["note", "笔记","nosky"]                                  # 网站关键字
-  description = "nosky 的个人学习笔记"                        # 网站描述
+    since = 2016
+    author = "nosky"                           # Author's name
+    avatar = "/images/avatar.png"           # Author's avatar
+    subtitle = "路漫漫其修远兮，吾将上下而求索"         # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
 
-  # mathjax
-  mathjax = true                                                       # 是否使用mathjax（数学公式）
+    google_verification = ""
+   
+    description = "nosky 的个人学习笔记" # site description
+    keywords = ["note", "笔记","nosky"] # site keywords
 
-  google_analytics_id = "UA-135962328-2"
+    beian = ""
+    baiduAnalytics = ""
 
-  summaryDisplay = false                                          # 是否显示文章摘要
+    license= '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
 
-# Valine.
-# You can get your appid and appkey from https://leancloud.cn
-# more info please open https://valine.js.org
-[params.valine]
-  enable = false
-  appId = ""
-  appKey = ""
-  placeholder = " "
-  visitor = true
-
-[social]
-  mail = "mailto:nosky@xiaofangwei.cn"
-  # github = "" #https://github.com/no-sky
-  # twitter = " "
-  # facebook = " "
-  # weibo = " "
-  # instagram = " "
+[params.social]
+    GitHub = "github.com/no-sky"
+    Twitter = ""
+    Email   = "mailto:nosky@xiaofangwei.cn"
+    Instagram = ""
+    Wechat = ""  # Wechat QRcode image
+    Facebook = ""
+    Telegram = ""
+    Dribbble = ""
+    Medium = ""
 
 

@@ -1,5 +1,5 @@
 ---
-title: "ICMP与Ping"
+title: "ICMP&Ping"
 author: "nosky"
 date: 2019-11-22T16:40:52+08:00
 draft: false
