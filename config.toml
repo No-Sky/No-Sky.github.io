@@ -66,3 +66,8 @@ post_asset_folder = true
   # facebook = " "
   # weibo = " "
   # instagram = " "
+
+
+[submodule "themes/zoz"]
+  path = themes/zozo
+  url = https://github.com/imzeuk/hugo-theme-zozo.git
