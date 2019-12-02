@@ -31,4 +31,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v2.5.0
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.HUGO_TOKE }}
-          PUBLISH_BRANCH: master
+          BRANCH: master
