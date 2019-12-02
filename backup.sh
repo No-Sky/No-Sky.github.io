@@ -1,5 +1,3 @@
 git add .
-git commit -m 'backup'
+git commit -m 'CI'
 git push origin notebackup
-
-hugo --theme=zozo
