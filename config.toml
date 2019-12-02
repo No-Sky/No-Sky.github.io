@@ -68,6 +68,3 @@ post_asset_folder = true
   # instagram = " "
 
 
-[submodule "themes/zoz"]
-  path = themes/zozo
-  url = https://github.com/imzeuk/hugo-theme-zozo.git
