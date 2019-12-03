@@ -1,6 +1,6 @@
-[submodule "themes/zoz"]
+[submodule "themes/zozo"]
   path = themes/zozo
-  url = https://github.com/imzeuk/hugo-theme-zozo.git
+  url = https://github.com/no-sky/hugo-theme-zozo.git
 [submodule "themes/leavelt"]
-	path = themes/leavelt
-	url = https://github.com/liuzc/LeaveIt
+  path = themes/leavelt
+  url = https://github.com/no-sky/LeaveIt.git
