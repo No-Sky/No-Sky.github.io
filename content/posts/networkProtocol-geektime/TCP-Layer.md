@@ -14,7 +14,7 @@ tags: ["Network Protocol"]
 
 虽然TCP面向字节流，但TCP传输的数据单元却是报文段。TCP报文段分为TCP首部和数据部分，TCP报文段首部的前20个字节是固定的，后面有4*n字节根据需要动态添加的选项，最大长度为40字节。 
 
-![img](https://user-gold-cdn.xitu.io/2019/7/13/16bea56ed5a68bb6?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![img](/posts/networkProtocol-geektime/TCP-Layer.assets/16bea56ed5a68bb6)
 
 - **源端口和目的端口** 各占两个字节，TCP的分用功能也是通过端口实现的。
 - **序号** 占4个字节，范围是[0,232],TCP是面向字节流的，每个字节都是按顺序编号。例如一个报文段，序号字段是201，携带数据长度是100，那么第一个数据的序号就是201，最后一个就是300。当达到最大范围，又从0开始。
@@ -38,7 +38,7 @@ tags: ["Network Protocol"]
 
 
 
-![img](https://user-gold-cdn.xitu.io/2019/6/27/16b98a433dbbc569?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![img](/posts/networkProtocol-geektime/TCP-Layer.assets/16b98a433dbbc569)
 
 **第一次**：客户端发送连接请求报文给服务端，其中SYN=1,seq=x。发送完毕后进入SYN_END状态。
 
@@ -54,7 +54,7 @@ tags: ["Network Protocol"]
 
 四次挥手指客户端和服务端各发送一次请求终止连接的报文，同时双方响应彼此的请求。 四次挥手图例如下，请配置文字解释使用哦。 
 
-![四次挥手图例](https://user-gold-cdn.xitu.io/2019/6/27/16b988e39a5f0821?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![四次挥手图例](/posts/networkProtocol-geektime/TCP-Layer.assets/16b988e39a5f0821)
 
 **第一次挥手**：客户端发送FIN=1，seq=x的包给服务端，表示自己没有数据要进行传输，单面连接传输要关闭。发送完后，客户端进入状态。
 

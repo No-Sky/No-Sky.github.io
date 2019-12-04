@@ -41,7 +41,7 @@ UDP数据报的首部结构
 
 用户数据报UDP有两个字段：数据字段和首部字段。首部字段只有8个字节，如下图所示：
 
- ![img](https://img-blog.csdn.net/20160313152631284) 
+ ![img](/posts/networkProtocol-geektime/UDP-Layer.assets/20160313152631284) 
 
 
 

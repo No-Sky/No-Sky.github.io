@@ -8,7 +8,7 @@ tags: ["Network Protocol"]
 
 # Mac头和IP头
 
-![img](https://static001.geekbang.org/resource/image/79/fc/798467df661ecf5632d67b9c58bc53fc.jpg)
+![img](/posts/networkProtocol-geektime/Mac&IP.assets/798467df661ecf5632d67b9c58bc53fc.jpg)
 
 在 MAC 头里面，先是目标 MAC 地址，然后是源 MAC 地址，然后有一个协议类型，用来说明里面是
 IP 协议。在任何一台机器上，当要访问另一个 IP 地址的时候，都会先判断，这个目标 IP 地址，和当前机器的 IP
