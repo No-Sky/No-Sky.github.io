@@ -1,0 +1,3 @@
+[submodule "themes/leavelt"]
+	path = themes/leavelt
+	url = https://github.com/No-Sky/LeaveIt.git
