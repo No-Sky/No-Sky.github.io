@@ -10,7 +10,7 @@ tags: ["Network Protocol"]
 基于XML的最著名的通信协议就是 SOAP 了，全称 简单对象访问协议 （Simple Object Access Protocol）。它使用XML编写简单的请求和回复消息，并用HTTP协议进行传输。
 SOAP将请求和回复放在一个信封里面，就像传递一个邮件一样。信封里面的信分 抬头 和 正文 。
 
-```
+```HEAD
 POST /purchaseOrder HTTP/1.1
 Host: www.geektime.com
 Content-Type: application/soap+xml; charset=utf-8
@@ -26,7 +26,7 @@ soap:mustUnderstand="1">1234
 </m:Trans>
 </soap:Header>
 <soap:Body xmlns:m="http://www.geektime.com/perchaseOrder">
-<m:purchaseOrder">
+<m:purchaseOrder>
 <order>
 <date>2018-07-01</date>
 <className>趣谈网络协议</className>
@@ -42,18 +42,20 @@ HTTP协议我们学过，这个请求使用POST方法，发送一个格式为 ap
 是一笔交易（transaction），而且订单的详情都已经写明了。
 
 而且XML的格式也可以改成另外一种简单的文本化的对象表示格式JSON。
-```
+```HEAD
 POST /purchaseOrder HTTP/1.1
 Host: www.geektime.com
 Content-Type: application/json; charset=utf-8
 Content-Length: nnn
+```
+```JSON
 {
-"order": {
-"date": "2018-07-01",
-"className": "趣谈网络协议",
-"Author": "刘超",
-"price": "68"
-}
+    "order": {
+    "date": "2018-07-01",
+    "className": "趣谈网络协议",
+    "Author": "刘超",
+    "price": "68"
+    }
 }
 ```
 这就是RESTful格式的API的样子。
