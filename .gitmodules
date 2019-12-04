@@ -1,6 +1,0 @@
-[submodule "themes/leavelt"]
-	path = themes/leavelt
-	url = https://github.com/No-Sky/LeaveIt.git
-[submodule "themes/zozo"]
-	path = themes/zozo
-	url = https://github.com/No-Sky/hugo-theme-zozo.git
