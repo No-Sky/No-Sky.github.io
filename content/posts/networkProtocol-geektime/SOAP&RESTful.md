@@ -2,9 +2,7 @@
 title: "基于XML的SOAP和基于JSON的RESTful"
 date: 2019-12-04T18:16:36+08:00
 draft: false
- - 
 tags: ["Network Protocol"]
- - 
 ---
 
 # 传输协议问题
