@@ -31,7 +31,7 @@ preserveTaxonomyNames = true
     url = "/tags/"
     weight = 3
 
-  [[menu.main]]
+#  [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 4
