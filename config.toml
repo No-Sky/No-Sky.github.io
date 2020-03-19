@@ -51,12 +51,13 @@ preserveTaxonomyNames = true
     keywords = ["note", "笔记","nosky"] # site keywords
 
     beian = "湘ICP备19027112号"
+    policeBeian = ""
     baiduAnalytics = ""
 
     license= '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
 
 [params.social]
-    GitHub = "https://github.com/no-sky"
+    GitHub = "no-sky"
     Twitter = ""
     Email   = "mailto:nosky@xiaofangwei.cn"
     Instagram = ""
